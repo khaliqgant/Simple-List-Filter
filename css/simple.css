@@ -1,0 +1,17 @@
+.container{
+    width:1000px;
+    position:relative;
+}
+#kjg-simple{
+    list-style-type:none;
+}
+#kjg-simple li{
+    float:left;
+    padding:10px;
+}
+#kjg-simple li img{
+    width:150px;
+    height:150px;
+    border-radius:80px;
+}
+
