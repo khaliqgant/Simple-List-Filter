@@ -7,9 +7,9 @@ Requirements
 ------
 Simple List Filter was made to be as modifiable and easy to use as possible:
 * The dropdown filters must be enclosed in an element with a class of "filters"
-* The filter category should be the dropdown text ie: <a class="js-dropdown" href="#">Cat</a>
+* The filter category should be the dropdown text ie: ````<a class="js-dropdown" href="#">Cat</a>````
 * The ul enclosing the filters should be preceded with a "js" and end with "filter", ex: "js-desiredFilter-filter"
-* The filter should be the link text within an li ie: <li><a href="#">Playful</a></li>
+* The filter should be the link text within an li ie: ````<li><a href="#">Playful</a></li>````
 
 ```
     <div class="filters">
@@ -45,5 +45,6 @@ Why did you make this?
 Well, there are several plugins to filter items but none seemed to be modifiable and modular enough for what I need it for. I left the styling and markup as simplistic as possible so you can simply copy the JS code into your project and make it look however you want.
 There are a plethora of (more robust) plugins out there to filter items:
 * List.js (http://listjs.com/)
-* List.js (http://listjs.com/)
+* Quicksand (http://razorjack.net/quicksand/)
+* Filtrify (http://luis-almeida.github.io/filtrify/)
 
