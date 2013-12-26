@@ -24,6 +24,9 @@ li{
 .filters ul li{
     padding:5px 0;
 }
+.filters ul li.active{
+  background: url(green-check.png) no-repeat right center;
+}
 #kjg-simple li{
     display:inline;
     padding:10px;
