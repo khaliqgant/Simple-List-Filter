@@ -1,12 +1,31 @@
+li{
+    list-style-type:none;
+}
 .container{
     width:1000px;
     position:relative;
+    padding:20px;
 }
-#kjg-simple{
-    list-style-type:none;
+.filters{
+    width:500px;
+    padding-left:50px;
+    position:relative;
+}
+.filters a{
+    padding-right:50px;
+}
+.filters > ul{
+    display:none;
+    position:absolute;
+    z-index:10;
+    background-color:whitesmoke;
+    top:5px;
+}
+.filters ul li{
+    padding:5px 0;
 }
 #kjg-simple li{
-    float:left;
+    display:inline;
     padding:10px;
 }
 #kjg-simple li img{
