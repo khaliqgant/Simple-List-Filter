@@ -15,6 +15,8 @@
         var filter = this.parentNode.innerHTML.replace(/<[^>]*>/g, "");
         var items = document.getElementById('kjg-simple').getElementsByClassName('js-filter-item');
         filterIt(group,filter,items,this.parentNode);
+
+        return false;
     }
 
     function filterIt(group,filter,items,that){
@@ -25,10 +27,13 @@
             if ((that.className).indexOf("active") > -1)
                 {
                     //need to set all items to a display of inline
-                    items[i].style.display = "inline";
+                    //items[i].style.display = "inline";
+                    for (var i=0; i < items.length; i++)
+                    {
+                        items[i].style.display = "inline";
+                    }
                     that.setAttribute("class","");
                     js_done = true;
-                    console.log('filtering');
                     return false;
                 }
             var itemFilter = items[i].getAttribute('data-'+ group + '-filter');
@@ -43,6 +48,7 @@
         if (!js_done)
             {
                 removeActiveClass();
+                console.log(that);
                 that.setAttribute("class","active");
             }
 
