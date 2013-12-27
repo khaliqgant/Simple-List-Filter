@@ -1,11 +1,11 @@
 Simple List Filter
 =====
 
-Some super simple JS to to filter items using a dropdown menu
+Some super simple JS to to filter items using a dropdown menu. Includes a jQuery version and a pure Javascript version.
 
 Requirements
 ------
-Simple List Filter was made to be as modifiable and easy to use as possible:
+Simple List Filter was made to be as modifiable and as easy to use as possible:
 * The dropdown filters must be enclosed in an element with a class of "filters"
 * The filter category should be the dropdown text ie: ````<a class="js-dropdown" href="#">Cat</a>````
 * The ul enclosing the filters should be preceded with a "js" and end with "filter", ex: "js-desiredFilter-filter"
@@ -34,8 +34,6 @@ Simple List Filter was made to be as modifiable and easy to use as possible:
         </ul>
 ```
 
-* This simple "plugin" requires jQuery
-
 Warranty/License
 --------
 There's no warranty of any kind. If you find a bug, please report it or submit a pull request with a fix. It's provided completely as-is; if something breaks, you lose data, or something else bad happens, the author(s) and owner(s) of this add-on are in no way responsible.
@@ -48,3 +46,4 @@ There are a plethora of (more robust) plugins out there to filter items:
 * Quicksand (http://razorjack.net/quicksand/)
 * Filtrify (http://luis-almeida.github.io/filtrify/)
 
+I also wanted to write some pure javascript so figured this would be a good exercise. The pure javscript version may or may not work in IE, I haven't tested it to be honest.
