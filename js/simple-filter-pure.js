@@ -26,13 +26,14 @@
 
             if ((that.className).indexOf("active") > -1)
                 {
-                    //need to set all items to a display of inline
+                    //set all items to a display of inline
                     for (var i=0; i < items.length; i++)
                     {
                         items[i].style.display = "inline";
                     }
                     that.setAttribute("class","");
                     js_done = true;
+
                     return false;
                 }
             var itemFilter = items[i].getAttribute('data-'+ group + '-filter');
@@ -60,7 +61,6 @@
             filters[i].className = "";
         }
     }
-
 
 })();
 
