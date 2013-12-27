@@ -1,6 +1,5 @@
 (function(){
     var filters = document.querySelectorAll('.filters ul li a')
-    var js_done = false;
 
     for (var i=0; i< filters.length; i++)
     {
@@ -14,12 +13,13 @@
         var group = match[1];
         var filter = this.parentNode.innerHTML.replace(/<[^>]*>/g, "");
         var items = document.getElementById('kjg-simple').getElementsByClassName('js-filter-item');
-        filterIt(group,filter,items,this.parentNode);
+        var js_done = false;
+        filterIt(group,filter,items,this.parentNode,js_done);
 
         return false;
     }
 
-    function filterIt(group,filter,items,that){
+    function filterIt(group,filter,items,that,js_done){
         for (var i=0; i < items.length; i++)
         {
             items[i].style.display = "inline"
@@ -27,7 +27,6 @@
             if ((that.className).indexOf("active") > -1)
                 {
                     //need to set all items to a display of inline
-                    //items[i].style.display = "inline";
                     for (var i=0; i < items.length; i++)
                     {
                         items[i].style.display = "inline";
@@ -48,7 +47,6 @@
         if (!js_done)
             {
                 removeActiveClass();
-                console.log(that);
                 that.setAttribute("class","active");
             }
 
