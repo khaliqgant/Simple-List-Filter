@@ -27,11 +27,11 @@ Simple List Filter was made to be as modifiable and as easy to use as possible:
 * The items to be filtered should be within a ul with an id of "kjg-simple" (kjg being my initials #vain)
 * The li item should have a class of js-filter-item and data attributes should specify the filter category
 ```
-        <ul id="kjg-simple">
-            <li class="js-filter-item" data-food-filter="Bacon" data-cat-filter="">
-                <img class="list-item" src="assets/bacon.jpg">
-            </li>
-        </ul>
+    <ul id="kjg-simple">
+        <li class="js-filter-item" data-food-filter="Bacon" data-cat-filter="">
+            <img class="list-item" src="assets/bacon.jpg">
+        </li>
+    </ul>
 ```
 
 Warranty/License
