@@ -36,8 +36,8 @@ $(document).ready(function() {
            if (!js_done)
                {
                    //not simply clicking the already active filter
+                   $('.filters li').removeClass('active');
                    $that.addClass("active");
-                   $that.siblings().removeClass("active");
                }
 
            return false;
