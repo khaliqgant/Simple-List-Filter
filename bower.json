@@ -6,7 +6,7 @@
       "js/simple-filter-pure.js"
   ],
   "ignore": [
-      "/*.*"
+      "/*.*",
     "/assets",
     "css",
     "pure.html",
