@@ -3,6 +3,8 @@ Simple List Filter
 
 Some super simple JS to to filter items using a dropdown menu. Includes a jQuery version and a pure Javascript version.
 
+Install with bower ````bower install simple-list-filter ````
+
 Requirements
 ------
 Simple List Filter was made to be as modifiable and as easy to use as possible:
