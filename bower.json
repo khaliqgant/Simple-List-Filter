@@ -1,0 +1,23 @@
+{
+  "name": "simple-list-filter",
+  "version": "1.0.0",
+  "main": [
+      "js/simple-filter.js",
+      "js/simple-filter-pure.js"
+  ],
+  "ignore": [
+      "/*.*"
+    "assets",
+    "css",
+    "pure.html",
+    "index.html",
+    "README.md",
+    "js/jquery-1.10.2.min.js",
+    "js/dropdown-pure.js",
+    "js/dropdown"
+
+  ],
+  "dependencies": {
+    "jquery": ">=1.1"
+  }
+}
