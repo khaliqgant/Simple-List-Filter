@@ -1,6 +1,6 @@
 {
   "name": "simple-list-filter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": [
       "js/simple-filter.js",
       "js/simple-filter-pure.js"
