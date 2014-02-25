@@ -1,13 +1,13 @@
 {
   "name": "simple-list-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": [
       "js/simple-filter.js",
       "js/simple-filter-pure.js"
   ],
   "ignore": [
       "/*.*"
-    "assets",
+    "/assets",
     "css",
     "pure.html",
     "index.html",
